@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.service;
+package com.github.j0nesma.esg.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.repository.CustomerRepository;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.repository.CustomerRepository;
 
 @Service
 public class CustomerService {

@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.utils;
+package com.github.j0nesma.esg.utils;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -12,7 +12,7 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.stereotype.Component;
 
-import com.github.j0nesma.ecg.model.Customer;
+import com.github.j0nesma.esg.model.Customer;
 
 
 

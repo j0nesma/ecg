@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.j0nesma</groupId>
-	<artifactId>ecg</artifactId>
+	<artifactId>esg</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ecg</name>
+	<name>esg</name>
 	<description>A Java application to read CSV, send to REST API, and save to SQL database</description>
 	<url/>
 	<licenses>

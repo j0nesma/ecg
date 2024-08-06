@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.utils;
+package com.github.j0nesma.esg.utils;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -8,7 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import com.github.j0nesma.ecg.model.Customer;
+
+import com.github.j0nesma.esg.model.Customer;
 
 
 @ExtendWith(MockitoExtension.class)

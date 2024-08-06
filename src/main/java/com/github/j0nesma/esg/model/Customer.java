@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.model;
+package com.github.j0nesma.esg.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

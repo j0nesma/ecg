@@ -1,6 +1,6 @@
-# ECG
+# esg
 
-Test for ECG
+Test for esg
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Maven 3.8.1
     ```base
     ./mvnw spring-boot:run
     ```
-    1. At start up the code will populate the database with the CSV provided this happens in EcgApplicationTests and uses the customer populator
+    1. At start up the code will populate the database with the CSV provided this happens in esgApplicationTests and uses the customer populator
 
 This application will pick up the "test-data.csv" file from the /src directory to change this. go to /resources/application.properties
 

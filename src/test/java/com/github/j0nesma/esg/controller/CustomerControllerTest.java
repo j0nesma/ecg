@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.controller;
+package com.github.j0nesma.esg.controller;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,9 +23,10 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.service.CustomerService;
-import com.github.j0nesma.ecg.utils.CustomerPopulator;
+import com.github.j0nesma.esg.controller.CustomerController;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.service.CustomerService;
+import com.github.j0nesma.esg.utils.CustomerPopulator;
 
 @WebMvcTest(CustomerController.class)
 public class CustomerControllerTest {

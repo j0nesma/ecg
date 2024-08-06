@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg;
+package com.github.j0nesma.esg;
 
 import java.nio.file.Path;
 
@@ -10,23 +10,25 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import com.github.j0nesma.ecg.utils.CustomerPopulator;
+
+import com.github.j0nesma.esg.EsgApplication;
+import com.github.j0nesma.esg.utils.CustomerPopulator;
 
 @SpringBootTest(properties = {"csvfile=test-data.csv"})
-public class EcgApplicationTests {
+public class EsgApplicationTests {
 
     @MockBean
     private CustomerPopulator customerPopulator;
 
 	@Autowired
-    private EcgApplication ecgApplication;
+    private EsgApplication esgApplication;
 
     @Test
     void testRunApplication() throws Exception {
         // Arrange
 		
         // Act
-        ecgApplication.run();
+        esgApplication.run();
 
         // Assert
         verify(customerPopulator, times(2)).populate(any(Path.class));

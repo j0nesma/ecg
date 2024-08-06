@@ -1,8 +1,10 @@
-package com.github.j0nesma.ecg.kata;
+package com.github.j0nesma.esg.kata;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+
+import com.github.j0nesma.esg.kata.StringCalculator;
 
 public class StringCalculatorTest {
 

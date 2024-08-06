@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg;
+package com.github.j0nesma.esg;
 
 import java.nio.file.Path;
 import org.slf4j.Logger;
@@ -10,11 +10,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.io.FileSystemResource;
 
-import com.github.j0nesma.ecg.utils.CSVReader;
-import com.github.j0nesma.ecg.utils.CustomerPopulator;
+import com.github.j0nesma.esg.utils.CSVReader;
+import com.github.j0nesma.esg.utils.CustomerPopulator;
 
 @SpringBootApplication
-public class EcgApplication implements CommandLineRunner {
+public class EsgApplication implements CommandLineRunner {
 
     Logger logger = LoggerFactory.getLogger(CSVReader.class);
 
@@ -25,7 +25,7 @@ public class EcgApplication implements CommandLineRunner {
     private String csvFilePath;
 
     public static void main(String[] args) {
-        SpringApplication.run(EcgApplication.class, args);
+        SpringApplication.run(EsgApplication.class, args);
     }
 
     @Override

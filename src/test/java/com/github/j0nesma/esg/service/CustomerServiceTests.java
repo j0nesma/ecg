@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.service;
+package com.github.j0nesma.esg.service;
 
 
 
@@ -17,8 +17,9 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.repository.CustomerRepository;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.repository.CustomerRepository;
+import com.github.j0nesma.esg.service.CustomerService;
 
 @ExtendWith(MockitoExtension.class)
 public class CustomerServiceTests {

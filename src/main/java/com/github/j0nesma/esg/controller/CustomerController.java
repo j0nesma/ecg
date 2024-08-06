@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.controller;
+package com.github.j0nesma.esg.controller;
 
 import java.util.Optional;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.service.CustomerService;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.service.CustomerService;
 
 import lombok.AllArgsConstructor;
 

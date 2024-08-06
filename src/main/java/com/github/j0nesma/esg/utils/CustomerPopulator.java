@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.utils;
+package com.github.j0nesma.esg.utils;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.service.CustomerService;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.service.CustomerService;
 
 
 

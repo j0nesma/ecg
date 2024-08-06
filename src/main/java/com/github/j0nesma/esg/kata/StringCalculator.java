@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.kata;
+package com.github.j0nesma.esg.kata;
 
 import java.util.ArrayList;
 import java.util.Arrays;

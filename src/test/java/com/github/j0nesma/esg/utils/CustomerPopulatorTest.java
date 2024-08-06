@@ -1,4 +1,4 @@
-package com.github.j0nesma.ecg.utils;
+package com.github.j0nesma.esg.utils;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -16,8 +16,10 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.github.j0nesma.ecg.model.Customer;
-import com.github.j0nesma.ecg.service.CustomerService;
+import com.github.j0nesma.esg.model.Customer;
+import com.github.j0nesma.esg.service.CustomerService;
+import com.github.j0nesma.esg.utils.CSVReader;
+import com.github.j0nesma.esg.utils.CustomerPopulator;
 
 @ExtendWith(MockitoExtension.class)
 public class CustomerPopulatorTest {
