@@ -1,0 +1,3 @@
+CustomerRef,CustomerName,AddressLine1,AddressLine2,Town,County,Country,Postcode
+12345,John Doe,123 Elm Street,,Springfield,Some County,USA,CW98GB
+67890,Jane Doe,456 Oak Street,Apt 7B,Smallville,Other County,USA,CW98GP
